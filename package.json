@@ -1,0 +1,15 @@
+{
+  "name": "install-global-dependencies",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "sudo npm i -g http-server"
+  },
+  "author": "Suissa",
+  "license": "WTFPL",
+  "dependencies": {
+    "mongoose": "^3.8.13"
+  }
+}
